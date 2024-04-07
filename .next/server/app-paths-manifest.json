@@ -1,0 +1,8 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/[meal]/page": "app/[meal]/page.js",
+  "/api/recepie/route": "app/api/recepie/route.js",
+  "/forum/page": "app/forum/page.js",
+  "/page": "app/page.js",
+  "/api/meals/route": "app/api/meals/route.js"
+}
