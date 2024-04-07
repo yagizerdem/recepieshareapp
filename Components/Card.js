@@ -25,7 +25,7 @@ export default function Card({data}){
             setLoading(false)
         })
       },[data.image])
-  
+      
 
     return(
         <div className={styles.card}>
@@ -42,7 +42,7 @@ export default function Card({data}){
                 <span>{data.creator_email}</span>
             </div>
             <button className={styles.button}>
-                <Link href={`/${data.slug}/?image=${data.image}`}>see recepie</Link>
+                <Link href={`/${data.slug}/?image=${data.image}&id=${data.id}`}>see recepie</Link>
             </button>
         </div>
     )

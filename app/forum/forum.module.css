@@ -1,0 +1,87 @@
+.container{
+    width: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    background-color: var(--IceCold);
+    padding:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    margin:100px 0 100px 0;
+}
+.container > input{
+    border: none;
+    outline: none;
+    padding:10px;
+    background-color: var(--FreezePurple);
+    color: var(--MediumPurple);
+}
+.container > label{
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-weight:500;
+    font-size: 25px;
+    color:var(--PurplePain);
+}
+.container > textarea{
+    border: none;
+    outline: none;
+    padding:10px;
+    background-color: var(--FreezePurple);
+    color: var(--MediumPurple);
+}
+.instructions{
+    width: 300px;
+    height: 200px;
+}
+.fileinput{
+    display: none;
+}
+.btnfile{
+    width: 100px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border:none;
+    background-color: var(--FreezePurple);
+    color:var(--PurplePain);
+    cursor: pointer;
+}
+.btnsubmit{
+    width: 100px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border:none;
+    background-color: var(--FreezePurple);
+    color:var(--PurplePain);
+    cursor: pointer;
+}
+.preview{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.preview > p{
+    font-size:8px;
+    text-align: center;
+}
+.preview > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
