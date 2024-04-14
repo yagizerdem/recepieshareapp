@@ -1,0 +1,35 @@
+.container {
+  width: 700px;
+  height: fit-content;
+  margin: 100px auto;
+  background-color: var(--ice-cold);
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+}
+.img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+.line {
+  line-height: 50px;
+  font-weight: bolder;
+  color: var(--purple-pain);
+}
+.btn {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
+  margin: -15px;
+  background-color: var(--medium-purple);
+  color: var(--freeze-purple);
+  cursor: pointer;
+}

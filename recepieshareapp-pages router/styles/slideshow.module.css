@@ -1,0 +1,25 @@
+.active,
+.passive {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+}
+.active {
+  transform: rotate(0) translateX(0) translateY(0);
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.passive {
+  transform: rotate(-10deg) translateX(-100px) translateY(20px);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
